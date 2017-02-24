@@ -10,7 +10,7 @@ Assorted utilities for making testing easier
 
 ### SBT (Scala 2.11 and 2.12)
 ```
-"com.nthportal" %% "testing-utils" % "1.0.0"
+"com.nthportal" %% "testing-utils" % "1.0.0" % Test
 ```
 
 ### Maven
@@ -22,6 +22,7 @@ Assorted utilities for making testing easier
   <groupId>com.nthportal</groupId>
   <artifactId>testing-utils_2.12</artifactId>
   <version>1.0.0</version>
+  <scope>test</scope>
 </dependency>
 ```
 
@@ -32,5 +33,6 @@ Assorted utilities for making testing easier
   <groupId>com.nthportal</groupId>
   <artifactId>testing-utils_2.11</artifactId>
   <version>1.0.0</version>
+  <scope>test</scope>
 </dependency>
 ```
