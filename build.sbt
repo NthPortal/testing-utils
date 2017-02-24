@@ -3,7 +3,7 @@ name := "testing-utils"
 description := "Assorted utilities for making testing easier."
 
 val rawVersion = "1.0.0"
-isSnapshot := true
+isSnapshot := false
 version := rawVersion + {if (isSnapshot.value) "-SNAPSHOT" else ""}
 
 scalaVersion := "2.12.1"
